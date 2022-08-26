@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.score-container {
+    background-color: #080001;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.add-score-btn {
+    color: #9AABD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.new-game-container {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-game-btn {
+    color: #080001;
+    background-color: #F94F6D;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 700
+}
